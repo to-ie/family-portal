@@ -43,6 +43,7 @@ Coming soon
 
 ## Notes
 Visual template: `https://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html`
+    
 Ideas: `https://hackerella.com/built-digital-family-dashboard-game-changer/`
 
 ## ✉ Contact 
