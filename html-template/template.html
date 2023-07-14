@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"/>
+
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1 class="display-1 text-center">Good morning family!</h1>
+    
+    <br>
+
+    <!-- First row -->
+    <div class="container text-center">
+        <div class="row">
+            <!-- First column -->
+            <div class="col">
+                <!-- Date/time -->
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title font-weight-bold">10:37am</h5>
+                        <p class="card-text">Monday 27th July 2023</p>
+                    </div>
+                </div>
+
+                <br>
+
+                <!-- Weather forecast Dublin-->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Dublin</h5>
+                        <div class="d-flex justify-content-between">
+                            <p class="display-1 degree forceleft">23</p>
+                            <i class="fas fa-sun-o fa-5x pt-3 text-warning"></i>
+                        </div>
+                        <div class="d-flex justify-content-between mb-4">
+                            <p><i class="fas fa-tint fa-lg text-info pe-2"></i>3% Precipitation</p>
+                            <p><i class="fas fa-leaf fa-lg text-muted pe-2"></i>21 km/h Winds</p>
+                        </div>
+
+                        <table class="table table-borderless table-sm mb-0">
+                            <tbody>
+                                <tr>
+                                    <td class="font-weight-normal align-middle">Tuesday</td>
+                                    <td class="float-end font-weight-normal">
+                                    <p class="mb-1">24&deg;<span class="text-muted">/12&deg;</span></p>
+                                    </td>
+                                    <td class="float-end me-3">
+                                        <i class="fas fa-sun fa-lg text-warning"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="font-weight-normal align-middle">Wednesday</td>
+                                    <td class="float-end font-weight-normal">
+                                    <p class="mb-1">19&deg;<span class="text-muted">/10&deg;</span></p>
+                                    </td>
+                                    <td class="float-end me-3">
+                                    <i class="fas fa-cloud-sun-rain fa-lg text-info"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="font-weight-normal align-middle">Thursday</td>
+                                    <td class="float-end font-weight-normal">
+                                      <p class="mb-1">23&deg;<span class="text-muted">/15&deg;</span></p>
+                                    </td>
+                                    <td class="float-end me-3">
+                                      <i class="fas fa-sun fa-lg text-warning"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="font-weight-normal align-middle">Friday</td>
+                                    <td class="float-end font-weight-normal">
+                                      <p class="mb-1">26&deg;<span class="text-muted">/19&deg;</span></p>
+                                    </td>
+                                    <td class="float-end me-3">
+                                      <i class="fas fa-sun fa-lg text-warning"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="font-weight-normal align-middle">Saturday</td>
+                                    <td class="float-end font-weight-normal">
+                                      <p class="mb-1">20&deg;<span class="text-muted">/16&deg;</span></p>
+                                    </td>
+                                    <td class="float-end me-3">
+                                      <i class="fas fa-cloud fa-lg text-info"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="font-weight-normal align-middle">Sunday</td>
+                                    <td class="float-end font-weight-normal">
+                                      <p class="mb-1">22&deg;<span class="text-muted">/13&deg;</span></p>
+                                    </td>
+                                    <td class="float-end me-3">
+                                      <i class="fas fa-cloud-sun fa-lg text-info"></i>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <br>
+
+                <!-- Miniweather -->
+                <div class="row">
+                    <div class="col">
+                        <div class="card miniweather">
+                            <h5 class="card-title font-weight-bold">Carlow</h5>
+                            <p class="miniweathericon">14&deg;<span class="text-muted">/12&deg;</span></p>
+                            <i class="fas fa-cloud-sun-rain fa-lg text-info"></i>
+                        </div> <br>                   
+                    </div>
+                    <div class="col">
+                        <div class="card miniweather">
+                            <h5 class="card-title font-weight-bold">Brussels</h5>
+                            <p class="miniweathericon">20&deg;<span class="text-muted">/18&deg;</span></p>
+                            <i class="fas fa-cloud fa-lg text-info"></i>
+                        </div><br>
+                    </div>
+                    <div class="col">
+                        <div class="card miniweather">
+                            <h5 class="card-title font-weight-bold">Athens</h5>
+                            <p class="miniweathericon">40&deg;<span class="text-muted">/22&deg;</span></p>
+                            <i class="fas fa-sun fa-lg text-warning"></i>
+                        </div><br>
+                    </div>
+                </div>
+                <br>
+
+            </div>
+
+            <!-- Second column -->
+            <div class="col">
+                <!-- What's on today -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">What's on today?</h5>
+                        <table class="table whatsontoday">
+                          <tbody>
+                            <tr class="text-start">
+                              <td class="timestamp"><span class="badge rounded-pill bg-primary">All day</span></td>
+                              <td>🎂 Paul's birthday</td>
+                            </tr>
+                            <tr class="text-start">
+                              <td class="timestamp"><span class="badge rounded-pill bg-secondary">05:00 - 8:00</span></td>
+                              <td>Flight to Greece</td>
+                            </tr>
+                            <tr class="text-start">
+                              <td class="timestamp"><span class="badge rounded-pill bg-secondary">17:00 - 17:30</span></td>
+                              <td>EMK bath</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                </div>
+                <br>
+                <!-- What's on tomorrow -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">What's on tomorrow?</h5>
+                        <table class="table whatsontoday">
+                          <tbody>
+                            <tr class="text-start">
+                              <td class="timestamp"><span class="badge rounded-pill bg-primary">All day</span></td>
+                              <td>💍 Wedding anniversary</td>
+                            </tr>
+                            <tr class="text-start">
+                              <td class="timestamp"><span class="badge rounded-pill bg-primary">All day</span></td>
+                              <td>👔 Sports uniform</td>
+                            </tr>
+                            <tr class="text-start">
+                              <td class="timestamp"><span class="badge rounded-pill bg-secondary">16:00 - 17:00</span></td>
+                              <td>Pick EMK up from School</td>
+                            </tr>
+                            <tr class="text-start">
+                              <td class="timestamp"><span class="badge rounded-pill bg-secondary">17:00 - 17:30</span></td>
+                              <td>Play-date at Fred's</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                </div>
+                <br>
+                <!-- This month's birthdays -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">This month's birthdays</h5>
+                        <p class="text-start thismonthsbirthday">🎂 Paul's birthday</p>
+                        <p class="text-start thismonthsbirthday">🎂 Angelo's birthday</p>
+                        <p class="text-start thismonthsbirthday">🎂 Ruby's birthday</p>
+                        <p class="text-start thismonthsbirthday">🎂 Theo's birthday</p>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+
+            
+            <!-- Third column -->
+            <div class="col">
+
+                <div class="pictureoftheday">
+                    <img src="picture.jpg">
+                </div>
+
+                <!-- todo list -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">To-do</h5>
+                        <div class="text-start todo">
+                            <input class="form-check-input me-1 text-start" type="checkbox" value="" aria-label="...">
+                            Book car rental Kifisia
+                            <br>
+                            <input class="form-check-input me-1 text-start" type="checkbox" value="" aria-label="...">
+                            Book suitcase for Greece
+                            <br>
+                            <input class="form-check-input me-1 text-start" type="checkbox" value="" aria-label="...">
+                            Check emergency accommodation Varkiza
+                            <br>
+                            <input class="form-check-input me-1 text-start" type="checkbox" value="" aria-label="...">
+                            Defrost fridge
+                            <br>
+                            <input class="form-check-input me-1 text-start" type="checkbox" value="" aria-label="...">
+                            Clean up house
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <!-- shopping list -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Shopping list</h5>
+                        <div class="text-start shopping">
+                            <input class="form-check-input me-1 text-start" type="checkbox" value="" aria-label="...">
+                            Butter
+                            <br>
+                            <input class="form-check-input me-1 text-start" type="checkbox" value="" aria-label="...">
+                            Jaffa cakes
+                            <br>
+                            <input class="form-check-input me-1 text-start" type="checkbox" value="" aria-label="...">
+                            Ham
+                            <br>
+                            <input class="form-check-input me-1 text-start" type="checkbox" value="" aria-label="...">
+                            Cleaning products
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <!-- Row2 -->
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">What was the pumpkin’s favorite sport? Squash.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="save">
+        <button type="button" class="btn btn-success">Save</button>
+        <button type="button" class="btn btn-secondary">Admin</button>
+    </div>
+
+
+
+
+
+
+
+    <!-- Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

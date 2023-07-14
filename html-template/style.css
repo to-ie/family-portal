@@ -1,0 +1,64 @@
+body {
+    background-color: #f8f9fa;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+.display-1 {
+  letter-spacing: -4px;
+}
+
+.forceleft{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.card{ 
+    box-shadow: 0 20px 27px 0 rgba(0,0,0,.03); 
+    border-color: #00000010;
+    border-radius: 15px;
+}
+
+.degree:after {
+  content: '°C';
+  position: absolute;
+  font-size: 3rem;
+  margin-top: 0.4rem;
+  font-weight: 400;
+}
+
+
+.miniweather{
+    display: block;
+    padding-block: 15px;
+}
+
+.miniweathericon{
+    margin-bottom: 0px;   
+}
+
+.whatsontoday td{
+    border-style: none !important;
+}
+
+.timestamp{
+    width: 10%;
+}
+
+.todo input, .shopping input{
+    margin-bottom: 15px;
+}
+
+.pictureoftheday img{
+    box-shadow: 0 20px 27px 0 rgba(0,0,0,.03); 
+    border-color: #00000010;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.save{
+    text-align: center;
+    margin-top: 40px;
+}

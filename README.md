@@ -6,7 +6,7 @@ A portal for family organisation.
 A portal aimed at managing and organising the family life, to be displayed in the kitchen. Family members should be able to login and contribute to the dashboards visible to all. 
 
 ### 📷 Screenshots
-<img src="https://placehold.co/600x400" alt="Placeholder" width="600" height="400"> 
+<img src="screenshot.png" alt="Placeholder" width="600" height="400"> 
 
 ### 🤖 Tech stack 
 - Flask
@@ -22,6 +22,8 @@ A portal aimed at managing and organising the family life, to be displayed in th
 - Dad joke of the day 
 - Quote of the day
 - [?] Finance management
+- Shopping list 
+
 
 ## 🏁 Getting started 
 
@@ -32,9 +34,16 @@ Coming soon
 Coming soon 
 
 ### 🏃 Running locally 
+Coming soon 
 
 ### 🧭 Roadmap
-- [ ] build html template 
+- [x] build html template 
+- [ ] Start building
+
+
+## Notes
+Visual template: `https://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html`
+Ideas: `https://hackerella.com/built-digital-family-dashboard-game-changer/`
 
 ## ✉ Contact 
 Made by Theo<br> 
