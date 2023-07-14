@@ -6,7 +6,7 @@ A portal for family organisation.
 A portal aimed at managing and organising the family life, to be displayed in the kitchen. Family members should be able to login and contribute to the dashboards visible to all. 
 
 ### 📷 Screenshots
-<img src="screenshot.png" alt="Placeholder" width="600" height="400"> 
+<img src="screenshot.png" alt="Placeholder"> 
 
 ### 🤖 Tech stack 
 - Flask
